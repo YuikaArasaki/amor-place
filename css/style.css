@@ -1,0 +1,327 @@
+/* ---------------------------------
+全体構造
+----------------------------------*/
+body{
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.back-top{
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+}
+.back-top i{
+  background-color: #2F437E;
+  color: #fff;
+  font-size: 40px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px #CCC;
+}
+.bx-wrapper {
+  box-shadow: none;
+  left: 0;
+  background-color: transparent;
+  margin: 0 auto;
+ }
+/* ---------------------------------
+ヘッダー
+----------------------------------*/
+header{
+  background-color: #2F437E;
+  margin-bottom: 60px;
+  height: 100px;
+}
+header .inner{
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+header nav{
+margin-top:40px;
+}
+header ul{
+display: flex;
+}
+header li{
+  margin-right: 45px;
+}
+/* ---------------------------------
+メイン
+----------------------------------*/
+main h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: #2F437E;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+main P{
+  text-align: center;
+}
+/* ---------------------------------
+アサイド
+----------------------------------*/
+.banner1{
+  margin-bottom: 40px;
+  box-shadow: 5px 5px 10px #CCC;
+
+  }
+.banner2{
+  margin-bottom: 40px;
+  box-shadow: 5px 5px 10px #CCC;
+}
+.banner3{
+  box-shadow: 5px 5px 10px #CCC;
+}
+/* ---------------------------------
+フッター
+----------------------------------*/
+footer{
+  background-color: #2F437E;
+  color: #fff;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+/* ---------------------------------
+トップページ
+----------------------------------*/
+/* ---------------------------------
+コース
+----------------------------------*/
+#cource main h2{
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#cource main h2::after{
+content: "";
+display: block;
+border-bottom: 2px solid #2F437E;
+padding: 5px;
+width: 400px;
+}
+#cource main h3{
+  margin-bottom: 50px;
+}
+#cource section{
+  background-color: #4985E6;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 60px;
+  width: 650px;
+  height: 200px;
+}
+#cource main h4{
+  background-color: #2F437E;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50px;
+  margin: -10px auto 0 auto;
+  position: relative;
+  top: 20px;
+}
+#cource main p{
+  background-color: rgba(47,67,126,0.45);
+  font-size: 13px;
+  color: #fff;
+  width: 330px;
+  height: 150px;
+  text-align: left;
+  line-height: 2.0;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+margin: 0 10px 10px 10px;
+padding: 5px;
+}
+/* ---------------------------------
+料金
+----------------------------------*/
+#price main h2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#price main h2::after{
+  content: "";
+  display: block;
+  border-bottom: 2px solid #2F437E;
+  padding: 5px;
+  width: 400px;
+}
+
+#price main h3{
+  margin-bottom: 50px;
+}
+#price main section{
+  padding: 20px;
+  }
+#price main section h3{
+font-weight: bold;
+}
+#price main section p span{
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: 14px;
+  margin-right: 10px;
+}
+#price main section p{
+font-size: 60px;
+color: #c51616;
+}
+#price .yen{
+  font-size: 30px;
+}
+#price .fee{
+ display: flex;
+ justify-content: space-between;
+ width: 560px;
+margin-bottom: 50px;
+}
+#price .admission{
+border-right: 1px solid #000;
+}
+
+#price main h5{
+  background-color:#f5f6f7;
+  font-size: 20px;
+  font-weight: bold;
+  width: 660px;
+  height: 30px;
+  margin-bottom: 50px;
+}
+#price main table th{
+  background-color: #f5f6f7;
+  width: 190px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid #bbb;
+}
+#price main table th:first-child{
+  background-color: #f5f6f7;
+  width: 90px;
+
+}
+#price main table td{
+  text-align: center;
+  border: 1px solid #bbb;
+}
+/* ---------------------------------
+レッスン
+----------------------------------*/
+#lesson main h2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+#lesson main h2::after{
+  content: "";
+  display: block;
+  border-bottom: 2px solid #2F437E;
+  padding: 5px;
+  width: 400px;
+}
+/* ---------------------------------
+講師紹介
+----------------------------------*/
+#instructor main h2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+#instructor main h2::after{
+  content: "";
+  display: block;
+  border-bottom: 2px solid #2F437E;
+  padding: 5px;
+  width: 400px;
+}
+#instructor main section{
+  display: flex;
+  margin-bottom: 50px;
+}
+
+#instructor main h3 {
+text-align: left;
+margin-bottom: 10px;
+margin: 30px 0 20px 20px;
+}
+
+#instructor main ul li{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+#instructor main h4{
+  width: 80px;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+#instructor main p{
+  display: block;
+  text-align: left;
+  border-left: 3px solid #707070;
+  line-height: 1.5;
+}
+/* ---------------------------------
+アクセス
+----------------------------------*/
+#access main h2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+#access main h2::after{
+  content: "";
+  display: block;
+  border-bottom: 2px solid #2F437E;
+  padding: 5px;
+  width: 400px;
+}
+#access main .info{
+  display: flex;
+}
+#access main .map iframe{
+  width: 370px;
+  height: 440px;
+}
+#access main ul{
+margin-left: 20px;
+}
+#access main ul li{
+list-style-type: none;
+font-weight: bold;
+margin-bottom: 10px;
+}
+#access main p{
+  text-align: left;
+  margin-bottom: 30px;
+}
